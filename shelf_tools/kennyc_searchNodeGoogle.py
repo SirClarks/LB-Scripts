@@ -1,3 +1,8 @@
+# really an uncessary script
+# you can achieve much better functionality 
+# by using right-click, help on a node
+# but still a fun exercise
+
 import hou
 import webbrowser
 import string
