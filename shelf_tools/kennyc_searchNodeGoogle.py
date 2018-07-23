@@ -15,7 +15,7 @@ n = foo_list[-1]
 n = n[:-1]
 
 # search string combine houdini with node name
-search = 'http://www.google.com/search?q=houdini+'+n
+search = 'http://www.google.com/search?q=sidefx+houdini+'+n
 
 # perform websearch
 webbrowser.open(search)
