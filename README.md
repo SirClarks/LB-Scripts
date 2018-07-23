@@ -5,6 +5,8 @@
 |
 <b><a href="#notes">Notes</a></b>
 |
+<b><a href="#shelf-tools">Shelf Tools</b>
+|
 <b><a href="#external">External</a></b>
 </p>
 
@@ -16,9 +18,9 @@ Welcome to this repository, which is a collection of personal scripts I've made 
 
 Anyone is welcome to use this code in their Houdini projects. So far, it's extremely basic, and easy to follow along. I will try to put a few comments here and there for readability.
 
-### Shelf Tools
+### Shelf-Tools
 
-This is probably the section you'll be most interested in. You can easily copy-paste the code in these files into the script tab of a new shelf tool. To create a new shelf-tool find an empty place on a newly created shelf or an existing shelf, right-click, new tool, set the options, then copy and paste the script into the script tab, make sure that the script language is set to Python.
+[Shelf tools folder](https://github.com/SirClarks/LB-Scripts/tree/master/shelf_tools): This is probably the section you'll be most interested in. You can easily copy-paste the code in these files into the script tab of a new shelf tool. To create a new shelf-tool find an empty place on a newly created shelf or an existing shelf, right-click, new tool, set the options, then copy and paste the script into the script tab, make sure that the script language is set to Python.
 
 ### External
 
