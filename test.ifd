@@ -1,13 +1,13 @@
 # IFD created by Houdini Version: 16.5.503
-# Generation Time: Aug 03, 2018 at 13:30:29
+# Generation Time: Aug 03, 2018 at 13:31:14
 #   Render Target: mantra16.5
-#        HIP File: /LOSTBOYS/FX/STUDENTS/CLASS-001/kirau/fingalscave/HIP/fingalscavevariationsv4, $T=51, $FPS=24
-#   Output driver: /out/cave_variation_8_text
+#        HIP File: /LOSTBOYS/FX/STUDENTS/CLASS-001/kirau/fingalscave/HIP/fingalscavevariationsv4, $T=52.0417, $FPS=24
+#   Output driver: /out/cave_variation_9_text
 ray_version VEX16.5.503
 ray_defaults 'RenderProperties.json'
 
 ray_declare global float global:fps 24
-fps 24; tcur 51
+fps 24; tcur 52.0417
 
 setenv HIP = "$HIP_OVERRIDE"
 if "$HIP" == "" then	# {
@@ -20,22 +20,22 @@ if "$_TMP_LOCAL_STORAGE" == "" then	# {
     setenv _TMP_LOCAL_STORAGE = "/home/kirau/houdini_temp/ifds/storage"
 endif	# }
 # Retained geometry
-# Save geometry for /obj/font1/merge1 at time 51
+# Save geometry for /obj/font1/merge1 at time 52.0417
 ray_start geo	# {
     ray_detail /obj/font1/merge1 $_TMP_SHARED_STORAGE/fingalscavevariationsv4_shared_11512.bgeo.sc
 ray_end	# }
 
 # Main image from /obj/cam3
-ray_time 51	# {
+ray_time 52.0416666666666643	# {
     ray_property renderer rendertype "beauty"
     ray_property renderer renderlabel "/obj/cam3.beauty"
     ray_declare plane string IPlay.s3dleftplane ""
     ray_declare plane string IPlay.s3drightplane ""
-    ray_image "/LOSTBOYS/FX/STUDENTS/CLASS-001/kirau/fingalscave//RENDER/cave_variation_8_text/v0001/cave_variation_8_text.1225.exr"
+    ray_image "/LOSTBOYS/FX/STUDENTS/CLASS-001/kirau/fingalscave//RENDER/cave_variation_9_text/v0001/cave_variation_9_text.1250.exr"
 	ray_declare plane string IPlay.rendermode "append"
-	ray_declare plane string IPlay.framerange "1175 1225"
-	ray_declare plane float IPlay.currentframe 1225
-	ray_declare plane string IPlay.rendersource "/out/cave_variation_8_text"
+	ray_declare plane string IPlay.framerange "1200 1250"
+	ray_declare plane float IPlay.currentframe 1250
+	ray_declare plane string IPlay.rendersource "/out/cave_variation_9_text"
 	ray_declare plane int IPlay.houdiniportnum 30001
 	ray_start plane	# {
 	    ray_property plane variable "Cf+Af"
@@ -59,14 +59,14 @@ ray_time 51	# {
     ray_property camera clip 0.00249502128595039015 249.502128595039011
     ray_property camera projection "perspective"
     ray_property object velocityscale 0.0208333333333333322
-    ray_transform -0.996989491160004904 0.0129773325119055122 -0.0764430726579586467 -3.46944695195361419e-18 -1.73472347597680709e-17 0.985894155857256482 0.167369989683061104 6.93889390390722838e-18 0.0775367945978843454 0.166866120849570199 -0.982926112785748596 -2.77555756156289135e-17 0.33478707216024961 -2.7781137362028403 -4.60224872837798316 0.999999999999999889
+    ray_transform -0.996989491160005015 0.0129773325119055052 -0.0764430726579586745 0 -2.42861286636752993e-17 0.98589415585725626 0.167369989683061104 0 0.0775367945978843592 0.166866120849570199 -0.982926112785748596 0 0.229120179153925546 -2.92757176435652511 -3.67986549448602807 1
     ray_start segment	# {
 	ray_property camera orthowidth 6.65810000000000013
 	ray_property camera zoom 0.844973854094743348
 	ray_property image window 0 1 0 1
     ray_end	# }
     ray_start light	# {
-	ray_transform -0.996989491160004904 -2.11070271755875516e-17 0.0775367945978843454 0 0.0129773325119055087 0.985894155857256371 0.166866120849570337 0 -0.0764430726579586606 0.167369989683061077 -0.982926112785748596 0 0.018021664497195531 3.50920441901665159 -4.08605570666676776 1
+	ray_transform -0.996989491160004904 -2.11355007574537053e-17 0.0775367945978843454 0 0.0129773325119055052 0.985894155857256371 0.16686612084957031 0 -0.0764430726579586606 0.167369989683061049 -0.982926112785748596 0 -0.0148777422988285828 3.50217494317899414 -3.14628858651194054 1
 	ray_property object name "soho_autoheadlight_light"
 	ray_property object diffuselimit 1
 	ray_property light projection "perspective"
@@ -74,11 +74,11 @@ ray_time 51	# {
     ray_end	# }
 
     ray_start object	# {
-	ray_transform -0.0528404430314802567 -1.11867244030614015e-18 0.00410945011368787048 0 0.000687798623130991891 0.0522523902604345863 0.00884390440502722842 0 -0.00405148285087180912 0.00887060945320223768 -0.0520950839776446739 0 0.0944647371551541881 3.34183442933359043 -3.10312959388101905 1
+	ray_transform -0.0528404430314802567 -1.12018154014504634e-18 0.00410945011368787048 0 0.000687798623130991783 0.0522523902604345863 0.00884390440502722669 0 -0.00405148285087180912 0.00887060945320223594 -0.0520950839776446739 0 0.0615653303591300743 3.33480495349593298 -2.16336247372619184 1
 	ray_geometry /obj/font1/merge1
 	ray_property object name "/obj/font1"
 	ray_property object diffuselimit 1
     ray_end	# }
     ray_raytrace
-# Generation time: 0.037816 seconds
+# Generation time: 0.038867 seconds
 ray_quit	# }
