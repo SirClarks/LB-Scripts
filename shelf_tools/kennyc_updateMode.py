@@ -1,4 +1,4 @@
-# directly taken from a sidefx and odforce forum. Can't seem to find the forum though.
+# directly taken from a sidefx forum post
 import hou
 mode = hou.updateModeSetting().name()
 
